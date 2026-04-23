@@ -1,4 +1,4 @@
-from google import genai
+afrom google import genai
 import os
 
 # 1. 클라이언트 설정
