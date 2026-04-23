@@ -5,7 +5,7 @@ client = OpenAI(
     api_key='ollama', # 실제로는 체크하지 않지만 필수 입력 항목
 )
 
-raaesponse = client.chat.completions.create(
+response = client.chat.completions.create(
     model="llama3.2", # 현재 올려두신 모델명 900101-1234567
     messages=[
         {"role": "system", "content": "도움이 되는 비서입니다."},
