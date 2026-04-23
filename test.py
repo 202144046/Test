@@ -6,7 +6,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="llama3.2", # 현재 올려두신 모델명 (900101-1234567)
+    model="llama3.2", # 현재 올려두신 모델명 900101-1234567
     messages=[
         {"role": "system", "content": "도움이 되는 비서입니다."},
         {"role": "user", "content": "Ollama와 OpenAI API의 차이점이 뭐야?"}
